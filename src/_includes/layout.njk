@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <script defer src="https://analytics.codesailors.dev/script.js" data-website-id="f809b042-ce50-45cc-b11b-d00c98678383"></script>
 </head>
 <body>
 
@@ -35,10 +36,10 @@
         <div class="container footer-inner">
             <p class="footer-copyright">&copy; 2026 CodeSailors.dev</p>
             <div class="social-links">
-                <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="{{ site.social.github }}" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="{{ site.social.linkedin }}" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="{{ site.social.mastodon }}" class="social-link" aria-label="Mastodon" rel="me"><i class="fab fa-mastodon"></i></a>
+                <a href="{{ site.social.email }}" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
             </div>
         </div>
     </footer>
